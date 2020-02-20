@@ -48,3 +48,7 @@
     border: 2px groove black;
     background-color: lightsteelblue;
 }
+
+.fishName {
+    font-weight: bold;
+}
