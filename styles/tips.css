@@ -1,0 +1,13 @@
+.tipList {
+    flex-basis: 25%;
+    border: .5em groove rgba(53, 79, 148, 0.577);
+    border-radius: 2em;
+}
+
+.tip {
+    margin: 1rem 1rem 2rem 1rem;
+}
+
+.tip h3 {
+    text-decoration: underline;
+}

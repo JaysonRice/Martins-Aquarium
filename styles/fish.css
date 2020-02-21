@@ -1,0 +1,24 @@
+.fishList {
+    flex-basis: 73%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fish__image {
+    border: 3px solid goldenrod;
+    margin: 2rem 2rem 0.5rem 3rem;
+    width: 10rem;
+    height: 10rem;
+    text-align: center;
+}
+
+.fish {
+    margin: 1em 1em;
+    width: 16em;
+    border: 4px groove black;
+    background-color: lightsteelblue;
+}
+
+.fishName {
+    font-weight: bold;
+}
