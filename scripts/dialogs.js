@@ -18,10 +18,10 @@ const initializeDetailButtonEvents = () => {
 
     // Show Bart's details when the button is clicked
 
-    document.querySelector("#button--betty").addEventListener(
+    document.querySelector("#button--lightbulb").addEventListener(
         "click",
         theClickEvent => {
-            const theDialog = document.querySelector("#details--betty")
+            const theDialog = document.querySelector("#details--lightbulb")
             theDialog.showModal()
         }
     )

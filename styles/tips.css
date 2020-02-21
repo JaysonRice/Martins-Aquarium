@@ -1,13 +1,22 @@
 .tipList {
     flex-basis: 25%;
-    border: .5em groove rgba(53, 79, 148, 0.577);
-    border-radius: 2em;
+    /* border: .5em solid rgb(230, 162, 141); */
+    background-color: rgb(230, 162, 141, .35);
+    border-radius: .5em;
+    margin: 1em .5em;
+    border-top: rgb(226, 182, 169) solid 1.2em;
+    border-bottom: rgb(226, 182, 169) solid 1.2em;
+}
+
+.martinsTips {
+    text-decoration: underline;
+    text-align: center;
+    font-family: 'Squada One', sans-serif;
+    font-size: 2em;
 }
 
 .tip {
-    margin: 1rem 1rem 2rem 1rem;
-}
-
-.tip h3 {
-    text-decoration: underline;
+    margin: 3rem .75rem;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
 }
