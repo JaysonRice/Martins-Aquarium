@@ -20,5 +20,18 @@
 }
 
 .fishName {
+    text-align: center;
     font-weight: bold;
+}
+
+.dialog--button {
+    background-color: white;
+    color: black;
+    border: .1em solid black;
+    border-radius: .5em;
+    text-align: center;
+}
+
+.detais--button {
+    text-align: center;
 }
