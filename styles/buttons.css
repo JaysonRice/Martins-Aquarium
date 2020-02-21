@@ -1,0 +1,21 @@
+.dialog--button {
+    padding: 1em 4em;
+    text-align: center;
+    background-color: white;
+    color: black;
+    border: .15em solid black;
+    border-radius: .5em;
+    text-align: center;
+    margin:  .5em 0em 1em 0em;
+    transition-duration: 0.5s;
+}
+
+.dialog--button:hover {
+    background-color: rgba(128, 128, 128, 0.79);
+    color: white;
+}
+
+.details--button {
+    text-align: center;
+}
+

@@ -16,22 +16,11 @@
     margin: 1em 1em;
     width: 16em;
     border: 4px groove black;
+    border-radius: .5em;
     background-color: lightsteelblue;
 }
 
 .fishName {
     text-align: center;
     font-weight: bold;
-}
-
-.dialog--button {
-    background-color: white;
-    color: black;
-    border: .1em solid black;
-    border-radius: .5em;
-    text-align: center;
-}
-
-.details--button {
-    text-align: center;
 }
