@@ -1,11 +1,12 @@
 .tipList {
-    flex-basis: 25%;
+    flex-basis: 29%;
     /* border: .5em solid rgb(230, 162, 141); */
-    background-color: rgb(230, 162, 141, .35);
+    background-color: rgba(233, 212, 206, 0.89);
     border-radius: .5em;
-    margin: 1em 1em;
+    margin: 1em 1em 1em 0em;
     border-top: rgb(226, 182, 169) solid 1.2em;
     border-bottom: rgb(226, 182, 169) solid 1.2em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .martinsTips {

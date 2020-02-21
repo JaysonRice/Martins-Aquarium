@@ -7,7 +7,12 @@
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
+
+    background:
+    linear-gradient(135deg, rgb(243, 243, 237) 25%, transparent 25%) -50px 0,
+    linear-gradient(225deg, rgb(243, 243, 237) 25%, transparent 25%) -50px 0,
+    linear-gradient(315deg, rgb(243, 243, 237) 25%, transparent 25%),
+    linear-gradient(45deg, rgb(243, 243, 237) 25%, transparent 25%);
+    background-size: 100px 100px;
+    background-color: white;
 }
-
-
-
