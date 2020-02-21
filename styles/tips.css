@@ -3,7 +3,7 @@
     /* border: .5em solid rgb(230, 162, 141); */
     background-color: rgb(230, 162, 141, .35);
     border-radius: .5em;
-    margin: 1em .5em;
+    margin: 1em 1em;
     border-top: rgb(226, 182, 169) solid 1.2em;
     border-bottom: rgb(226, 182, 169) solid 1.2em;
 }
