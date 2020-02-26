@@ -5,99 +5,137 @@
     <meta charset="utf-8">
     <title>Nashville Software School</title>
     <link rel="stylesheet" href="./styles/main.css">
-
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Permanent+Marker|Squada+One&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <header>
         <nav class="navigation">
-            <a class="navigation__link" href="index.html">Martin's Aquarium</a>
-            <a class="navigation__link" href="locations.html">Harvesting Locations</a>
+            <ul class="navigation__list">
+                <li><a class="navigation__link" href="#">Martin's Aquarium</a></li>
+                <li> <a class="navigation__link" href="locations.html">Harvesting Locations</a></li>
+            </ul>
         </nav>
     </header>
 
     <main class="container">
         <article class="fishList">
             <section class="fish">
-                <img class="fish__image" src="https://i.ytimg.com/vi/z_XlTRYLZ1Q/maxresdefault.jpg" />
+                <img class="fish__image"
+                    src="https://www.nationalgeographic.com/content/dam/animals/thumbs/rights-exempt/fish/group/anglerfish_thumb.jpg" />
                 <div class="fish__details">
-                    <ul>
-                        <li>Name: Betty</li>
-                        <li>Length: 2 ft</li>
-                        <li>Species: Longtooth Barracuda</li>
-                        <li>Food: Squid</li>
-                        <li>Harvested at: Cumberland River</li>
-                    </ul>
+                    <div class="fishName">Lightbulb</div>
+                    <div class="details--button">
+                        <button class="dialog--button" id="button--lightbulb">Details</button>
+                    </div>
+                    <dialog class="dialog--fish" id="details--lightbulb">
+                        <div>Length: 2 ft</div>
+                        <div>Species: Anglerfish</div>
+                        <div>Food: Crustaceans</div>
+                        <div>Harvested at: Marianas Trench</div>
+                        <button class="button--close" id="close-lightbulb">Close Dialog</button>
+                    </dialog>
+            </section>
+            <section class="fish">
+                <img class="fish__image"
+                    src="https://itsnature.org/wp-content/uploads/2008/02/070209-goblin-shark_big.jpg" />
+                <div class="fish__details">
+                    <div class="fishName">Snuffles</div>
+                    <div class="details--button">
+                        <button class="dialog--button" id="button--snuffles">Details</button>
+                    </div>
+                    <dialog class="dialog--fish" id="details--snuffles">
+                        <div>Length: 4 ft</div>
+                        <div>Species: Goblin Shark</div>
+                        <div>Food: Small fish</div>
+                        <div>Harvested at: Pacific Ocean</div>
+                        <button class="button--close" id="close-snuffles">Close Dialog</button>
+                    </dialog>
                 </div>
             </section>
             <section class="fish">
-                <img class="fish__image" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.7xhhlta3q-wVKpgzGdTlpAHaFj%26pid%3DApi&f=1" />
+                <img class="fish__image"
+                    src="https://m.liveaquaria.com/images/categories/large/lg_107557_ORA_Stubby_Ocellaris_Clownfish.jpg" />
                 <div class="fish__details">
-                    <ul>
-                        <li>Name: Nemo</li>
-                        <li>Length: 2 in</li>
-                        <li>Species: Clownfish</li>
-                        <li>Food: Plankton</li>
-                        <li>Harvested at: Great Barrier Reef</li>
-                    </ul>
+                    <div class="fishName">Mr. Blubb</div>
+                    <div class="details--button">
+                        <button class="dialog--button" id="button--mrBlubb">Details</button>
+                    </div>
+                    <dialog class="dialog--fish" id="details--mrBlubb">
+                        <div>Length: 3 in</div>
+                        <div>Species: Clownfish</div>
+                        <div>Food: Algae</div>
+                        <div>Harvested at: Great Barrier Reef</div>
+                        <button class="button--close" id="close-mrBlubb">Close Dialog</button>
+                    </dialog>
                 </div>
             </section>
             <section class="fish">
-                <img class="fish__image" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fthedisneyinme.files.wordpress.com%2F2013%2F12%2Fdory.jpg&f=1&nofb=1" />
+                <img class="fish__image"
+                    src="https://thumbs-prod.si-cdn.com/2tSlDBd2Jh97_c7vNsn58HAhkkY=/1072x720/filters:no_upscale()/https://public-media.si-cdn.com/filer/d6/93/d6939718-4e41-44a8-a8f3-d13648d2bcd0/c3npbx.jpg" />
                 <div class="fish__details">
-                    <ul>
-                        <li>Name: Dory</li>
-                        <li>Length: 4 in</li>
-                        <li>Species: Blue Tang</li>
-                        <li>Food: Clownfish</li>
-                        <li>Harvested at: New Zealand Sea</li>
-                    </ul>
+                    <div class="fishName">Pouty</div>
+                    <div class="details--button">
+                        <button class="dialog--button" id="button--pouty">Details</button>
+                    </div>
+                    <dialog class="dialog--fish" id="details--pouty">
+                        <div>Length: 1 ft</div>
+                        <div>Species: Pufferfish</div>
+                        <div>Food: Algae</div>
+                        <div>Harvested at: Indian Ocean</div>
+                        <button class="button--close" id="close-pouty">Close Dialog</button>
+                    </dialog>
                 </div>
             </section>
             <section class="fish">
-                <img class="fish__image" src="https://i.ytimg.com/vi/z_XlTRYLZ1Q/maxresdefault.jpg" />
+                <img class="fish__image"
+                    src="https://vignette.wikia.nocookie.net/wildkratts/images/7/72/Atlantic_Flying_Fish_RL.PNG/revision/latest?cb=20191021143355" />
                 <div class="fish__details">
-                    <ul>
-                        <li>Name: Betty</li>
-                        <li>Length: 2 ft</li>
-                        <li>Species: Longtooth Barracuda</li>
-                        <li>Food: Squid</li>
-                        <li>Harvested at: Cumberland River</li>
-                    </ul>
+                    <div class="fishName">Flapjack</div>
+                    <div class="details--button">
+                        <button class="dialog--button" id="button--flapjack">Details</button>
+                    </div>
+                    <dialog class="dialog--fish" id="details--flapjack">
+                        <div>Length: 1 ft</div>
+                        <div>Species: Flying Fish</div>
+                        <div>Food: Plankton</div>
+                        <div>Harvested at: Pacific Ocean</div>
+                        <button class="button--close" id="close-flapjack">Close Dialog</button>
+                    </dialog>
                 </div>
             </section>
             <section class="fish">
-                <img class="fish__image" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.7xhhlta3q-wVKpgzGdTlpAHaFj%26pid%3DApi&f=1" />
+                <img class="fish__image"
+                    src="https://thumbs-prod.si-cdn.com/79xDamFZC8yUv7WeBtXgSzUXe0w=/fit-in/1600x0/https://public-media.si-cdn.com/filer/94/c1/94c102c0-1929-4ff6-b6ff-fd5d5ae036ae/42-25125374.jpg" />
                 <div class="fish__details">
-                    <ul>
-                        <li>Name: Nemo</li>
-                        <li>Length: 2 in</li>
-                        <li>Species: Clownfish</li>
-                        <li>Food: Plankton</li>
-                        <li>Harvested at: Great Barrier Reef</li>
-                    </ul>
-                </div>
-            </section>
-            <section class="fish">
-                <img class="fish__image" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fthedisneyinme.files.wordpress.com%2F2013%2F12%2Fdory.jpg&f=1&nofb=1" />
-                <div class="fish__details">
-                    <ul>
-                        <li>Name: Dory</li>
-                        <li>Length: 4 in</li>
-                        <li>Species: Blue Tang</li>
-                        <li>Food: Clownfish</li>
-                        <li>Harvested at: New Zealand Sea</li>
-                    </ul>
+                    <div class="fishName">Sonny</div>
+                    <div class="details--button">
+                        <button class="dialog--button" id="button--sonny">Details</button>
+                    </div>
+                    <dialog class="dialog--fish" id="details--sonny">
+                        <div>Length: 4 ft</div>
+                        <div>Species: Sunfish</div>
+                        <div>Food: Squid</div>
+                        <div>Harvested at: Madagascar Tropics</div>
+                        <button class="button--close" id="close-sonny">Close Dialog</button>
+                    </dialog>
                 </div>
             </section>
         </article>
         <aside class="tipList bordered">
             <header>
-                <h3 class="tip">Martin's Tips</h3>
+                <h3 class="martinsTips">Martin's Tips</h3>
             </header>
-            <section class="tip">Make sure tank has water</section>
-            <section class="tip">Clean the poop out on a regular basis</section>
-            <section class="tip">Make sure to feed them daily</section>
+            <section class="tip">Make sure tank has water with the proper PH levels for your fish.</section>
+            <section class="tip">Clean the tank out on a regular basis.</section>
+            <section class="tip">Make sure to feed them daily, taking into account their diet standards.</section>
+            <section class="tip">pH is an indicator of the acidity or alkalinity of your tank water. Buy a pH test kit
+                to check the pH level.</section>
+            <section class="tip">Plan to replace 25 percent of the water in your aquarium once a month.</section>
+            <section class="tip">Watch for changes in appearance, behavior or appetite so that you’ll immediately notice
+                if something is wrong.</section>
+            <section class="tip"></section>
         </aside>
     </main>
 

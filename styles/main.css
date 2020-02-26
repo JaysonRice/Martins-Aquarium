@@ -1,50 +1,18 @@
+@import 'nav.css';
+@import 'fish.css';
+@import 'tips.css';
+@import 'buttons.css';
+
 .container {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
-}
 
-.navigation {
-    margin: 2em;
-}
-
-.navigation__link {
-    padding: 0 1em 0 1em;
-}
-
-.fishList {
-    flex-basis: 73%;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.fish__image {
-    border: 3px solid goldenrod;
-    margin: 2rem 2rem 0.5rem 3rem;
-    width: 10rem;
-    height: 10rem;
-    text-align: center;
-}
-
-.tipList {
-    flex-basis: 25%;
-}
-
-.tip {
-    margin: 1rem 1rem 2rem 1rem;
-}
-
-.tip h3 {
-    text-decoration: underline;
-}
-
-.bordered {
-    border: 2px groove black;
-}
-
-.fish {
-    margin: 1em 1em;
-    width: 16em;
-    border: 2px groove black;
-    background-color: lightsteelblue;
+    background:
+    linear-gradient(135deg, rgb(243, 243, 237) 25%, transparent 25%) -50px 0,
+    linear-gradient(225deg, rgb(243, 243, 237) 25%, transparent 25%) -50px 0,
+    linear-gradient(315deg, rgb(243, 243, 237) 25%, transparent 25%),
+    linear-gradient(45deg, rgb(243, 243, 237) 25%, transparent 25%);
+    background-size: 100px 100px;
+    background-color: white;
 }
