@@ -1,0 +1,24 @@
+
+.navigation__list {
+    list-style-type: none;
+    margin: 0em 1em;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(226, 182, 169);
+    display: flex;
+    font-family: 'Josefin Sans', sans-serif;
+    border-radius: .5em;
+}
+  
+.navigation__link {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: rgb(226, 205, 198);
+  }
