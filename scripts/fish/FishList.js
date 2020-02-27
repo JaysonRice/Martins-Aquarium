@@ -14,7 +14,7 @@ const FishList = () => {
     }
 
         // Add a section, and all of the fish to the DOM
-        contentElement.innerHTML += `
+        contentElement.innerHTML = `
         ${fishHTMLRepresentations}
 `   
 }
