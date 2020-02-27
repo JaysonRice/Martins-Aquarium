@@ -13,11 +13,19 @@
     text-decoration: underline;
     text-align: center;
     font-family: 'Squada One', sans-serif;
-    font-size: 2em;
+    font-size: 2.3em;
+    margin: .5em 0em;
+}
+
+.tipTitle {
+    text-align: center;
+    font-family: 'Squada One', sans-serif;
+    font-size: 1.5em;
+    margin: 0em;
 }
 
 .tip {
-    margin: 3rem .75rem;
+    margin: 0.5rem .75rem 1.5rem .75rem;
     text-align: center;
     font-family: 'Josefin Sans', sans-serif;
 }

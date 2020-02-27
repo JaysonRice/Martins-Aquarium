@@ -19,3 +19,4 @@ const Tip = (tip) => {
 }
 
 export default Tip
+
