@@ -19,16 +19,4 @@ const FishList = () => {
 `   
 }
 
-// const FishList = () => {
-
-//     // Get a reference to the `<article class="content">` element
-//     const contentElement = document.querySelector(".fishList")
-//     const fishes = useFish()
-
-//     // Add to the existing HTML in the content element
-//     contentElement.innerHTML += `
-//             All the fish go here!
-//     `
-// }
-
 export default FishList
