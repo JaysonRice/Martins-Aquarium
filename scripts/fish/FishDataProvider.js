@@ -11,15 +11,15 @@ const fishCollection = [
         name: "Snuffles",
         image:'https://itsnature.org/wp-content/uploads/2008/02/070209-goblin-shark_big.jpg',
         length: "4 ft",
-        species: "goblin shark",
+        species: "Goblin shark",
         food: ["small fish"],
         location: "Honshu, Japan"
     },
     {
-        name: "Mr. Blubb",
+        name: "Blubb",
         image: 'https://m.liveaquaria.com/images/categories/large/lg_107557_ORA_Stubby_Ocellaris_Clownfish.jpg',
         length: "3 in",
-        species: "clownfish",
+        species: "Clownfish",
         food: ["algae"],
         location: "Great Barrier Reef"
     },
@@ -27,7 +27,7 @@ const fishCollection = [
         name: "Pouty",
         image: 'https://thumbs-prod.si-cdn.com/2tSlDBd2Jh97_c7vNsn58HAhkkY=/1072x720/filters:no_upscale()/https://public-media.si-cdn.com/filer/d6/93/d6939718-4e41-44a8-a8f3-d13648d2bcd0/c3npbx.jpg',
         length: "1 ft",
-        species: "pufferfish",
+        species: "Pufferfish",
         food: ["algae"],
         location: "Indian Ocean"
     },
@@ -35,7 +35,7 @@ const fishCollection = [
         name: "Flapjack",
         image: 'https://vignette.wikia.nocookie.net/wildkratts/images/7/72/Atlantic_Flying_Fish_RL.PNG/revision/latest?cb=20191021143355',
         length: "1 ft",
-        species: "flying fish",
+        species: "Flying fish",
         food: ["plankton"],
         location: "Pacific Ocean"
     },
@@ -43,7 +43,7 @@ const fishCollection = [
         name: "Sonny",
         image: 'https://thumbs-prod.si-cdn.com/79xDamFZC8yUv7WeBtXgSzUXe0w=/fit-in/1600x0/https://public-media.si-cdn.com/filer/94/c1/94c102c0-1929-4ff6-b6ff-fd5d5ae036ae/42-25125374.jpg',
         length: "4 ft",
-        species: "sunfish",
+        species: "Sunfish",
         food: ["squid", "jellyfish"],
         location: "Palos Verdes Peninsula"
     }
