@@ -9,7 +9,7 @@ const tipCollection = [
     },
     {
         tipTitle: "Fish Health",
-        tips: ["Watch for changes in appearance, behavior or appetite so that you’ll immediately notice if something is wrong."]
+        tips: ["Watch for changes in appearance, behavior or appetite so that you’ll immediately notice if something is wrong.", "Avoid keeping fish that are aggressive towards each other in the same tank."]
     }
 ]
 
