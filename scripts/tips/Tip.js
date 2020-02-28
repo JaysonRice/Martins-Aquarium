@@ -1,10 +1,7 @@
 const Tip = (tip) => {
     return `
-    <section class="allTips">
     <h3 class="tipTitle">${tip.tipTitle}</h3>
-    <p class="tip">${tip.tips.join(",")}</p>
-    </section>
-    `
+    <p class="tip">${tip.tips.join("<br> <br>")}</p> `
 }
 
 export default Tip

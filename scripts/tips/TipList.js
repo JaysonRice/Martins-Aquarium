@@ -1,5 +1,5 @@
-import { useTips } from "./TipDataProvider";
-import Tip from "./Tip";
+import { useTips } from './TipDataProvider.js';
+import Tip from './Tip.js';
 
 const TipList = () => {
 
