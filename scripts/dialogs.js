@@ -11,55 +11,19 @@ const initializeDetailButtonEvents = () => {
             }
         )
     }
-    // CAN'T TOUCH THIS - END
 
+        const allDetailButtons = document.querySelectorAll("button[id^='button--']")
 
-    // You will be writing code below this line
-
-    // Show Bart's details when the button is clicked
-
-    document.querySelector("#button--lightbulb").addEventListener(
-        "click",
-        theClickEvent => {
-            const theDialog = document.querySelector("#details--lightbulb")
-            theDialog.showModal()
+        for (const btn of allDetailButtons) {
+            btn.addEventListener(
+                "click",
+                theEvent => {
+                    const dialogSiblingSelector = `#${theEvent.target.id}+dialog`
+                    const theDialog = document.querySelector(dialogSiblingSelector)
+                    theDialog.showModal()
+                }
+            )
         }
-    )
-    document.querySelector("#button--snuffles").addEventListener(
-        "click",
-        theClickEvent => {
-            const theDialog = document.querySelector("#details--snuffles")
-            theDialog.showModal()
-        }
-    )
-    document.querySelector("#button--mrBlubb").addEventListener(
-        "click",
-        theClickEvent => {
-            const theDialog = document.querySelector("#details--mrBlubb")
-            theDialog.showModal()
-        }
-    )
-    document.querySelector("#button--pouty").addEventListener(
-        "click",
-        theClickEvent => {
-            const theDialog = document.querySelector("#details--pouty")
-            theDialog.showModal()
-        }
-    )
-    document.querySelector("#button--flapjack").addEventListener(
-        "click",
-        theClickEvent => {
-            const theDialog = document.querySelector("#details--flapjack")
-            theDialog.showModal()
-        }
-    )
-    document.querySelector("#button--sonny").addEventListener(
-        "click",
-        theClickEvent => {
-            const theDialog = document.querySelector("#details--sonny")
-            theDialog.showModal()
-        }
-    )
-}
+    }
 
 export default initializeDetailButtonEvents

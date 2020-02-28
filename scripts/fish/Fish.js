@@ -8,10 +8,10 @@ const Fish = (fish) => {
             <button id="button--${fish.name}" class="dialog--button">Details</button>
 
             <dialog class="dialog--fish" id="details--${fish.name}">
-                <div>Species: ${fish.species}</div>
-                <div>Location: ${fish.location}</div>
-                <div>Length: ${fish.size}</div> 
-                <div>Food: ${fish.food.join(",")}</div>
+                <div class="dialog--text">Species: ${fish.species}</div>
+                <div class="dialog--text">Location: ${fish.location}</div>
+                <div class="dialog--text">Length: ${fish.length}</div> 
+                <div class="dialog--text">Food: ${fish.food.join(", ")}</div>
                 <button class="button--close">Close Dialog</button>
             </dialog>
         </div>

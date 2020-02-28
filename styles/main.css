@@ -2,8 +2,9 @@
 @import 'fish.css';
 @import 'tips.css';
 @import 'buttons.css';
-@import 'locationTips.css';
-@import 'locationItems.css';
+@import 'dialog.css';
+@import 'locations/locationTips.css';
+@import 'locations/locationItems.css';
 
 .container {
     display: flex;
