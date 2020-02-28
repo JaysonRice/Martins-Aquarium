@@ -2,6 +2,8 @@
 @import 'fish.css';
 @import 'tips.css';
 @import 'buttons.css';
+@import 'locationTips.css';
+@import 'locationItems.css';
 
 .container {
     display: flex;

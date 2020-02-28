@@ -5,7 +5,7 @@ const fishCollection = [
         length: "2 ft",
         species: "anglerfish",
         food: ["crustaceans"],
-        location: "Marianas Trench"
+        location: "Deep Antarctic Ocean"
     },
     {
         name: "Snuffles",
@@ -13,7 +13,7 @@ const fishCollection = [
         length: "4 ft",
         species: "goblin shark",
         food: ["small fish"],
-        location: "Pacific Ocean"
+        location: "Honshu, Japan"
     },
     {
         name: "Mr. Blubb",
@@ -45,7 +45,7 @@ const fishCollection = [
         length: "4 ft",
         species: "sunfish",
         food: ["squid", "jellyfish"],
-        location: "Madagascar Tropics"
+        location: "Palos Verdes Peninsula"
     }
 ]
 
