@@ -5,6 +5,7 @@
 @import 'dialog.css';
 @import 'locations/locationTips.css';
 @import 'locations/locationItems.css';
+@import 'locations/locationButtons.css';
 
 .container {
     display: flex;

@@ -1,0 +1,29 @@
+/* Button that opens dialog box*/
+
+.dialog--button--locations {
+    padding: 1em 8em;
+    text-align: center;
+    background-color: white;
+    color: rgb(230, 162, 141);
+    border: .15em solid rgb(230, 162, 141);
+    border-radius: .5em;
+    text-align: center;
+    margin:  .5em 0em .5em 0em;
+    transition-duration: 0.5s;
+    font-size: large;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.dialog--button--locations:hover {
+    background-color: rgb(231, 203, 195);
+    color: white;
+}
+
+ /* Dialog box itself */
+
+.dialog--location {
+    border: .8em solid rgba(235, 195, 185, 0.89);
+    border-radius: .5em;
+    background-color: rgb(241, 230, 227);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

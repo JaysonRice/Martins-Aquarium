@@ -1,13 +1,14 @@
 .location__details {
     width: 44em;
+    text-align: center;
 }
 
 .location__name {
     font-family: 'Squada One', sans-serif;
-    font-size: 3em;
+    font-size: 2.5em;
     text-align: center;
     margin: .5em 0em .2em 0em;
-    text-decoration: underline;
+    /* text-decoration: underline; */
 }
 
 .location__fish {
@@ -33,10 +34,12 @@
     border-radius: .5em;
     background-color: rgba(233, 212, 206, 0.89);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 
 .location__image {
+    display: flex;
+    flex-basis: 40%;
     max-width: 28em;
     max-height: 10em;
     border-radius: .3em;
