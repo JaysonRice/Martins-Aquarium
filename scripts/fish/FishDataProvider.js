@@ -70,7 +70,7 @@ export const soldierFish = () => {
     let soldierFishArray = []
     
     for (const soldierFish of fishCollection) {
-        if (soldierFish.size % 5 === 0) {
+        if (soldierFish.size % 5 === 0 && nonHolyFish.size % 3 !== 0) {
         soldierFishArray.push(soldierFish)
            
         }
